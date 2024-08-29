@@ -1,0 +1,158 @@
+.mid .img-title a{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 14px;
+    color: black;
+}
+.mid .content {
+    padding-bottom: 24px;
+}
+.mid .content .decor{
+    padding-top: 22px;
+}
+.mid .content .sp{
+    padding-top: 22px;
+}
+.mid .content a{
+    text-decoration: none;
+    color: black;
+}
+.mid .content .card{
+    border-radius: 0;
+    padding-top: 4px;
+}
+.mid .content .name{
+    text-align: center;
+    margin-bottom:0px;
+    font-size: 14px;
+}
+.mid .content .price{
+    margin-bottom: 0;
+    color:#46ad0e ;
+    text-align: center;
+    font-size: 14px;
+}
+.mid .news{
+    background-color: #f4f4f4;
+    margin-top: 22px;
+}
+.mid .news .name{  
+    text-align: center;
+    color:#46ad0e;
+    padding-top: 26px;
+}
+.mid .news a{
+    color: black;
+}
+.mid .news .card{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+.mid .news .content{
+    margin-top: 25px;
+}
+.mid .news .content .card .des{
+    opacity: 0.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.mid .news .more-btn{
+    margin-top: 32px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+.mid .comment .name{
+    padding-top: 35px;
+    text-align: center;
+    color: #46ad0e;
+}
+.mid .comment .slide-cmt{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#message {
+    clear: both;
+    position: relative;
+  }
+#message .arrow {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+    left: 50px;
+}
+#message .arrow .outer {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #000000;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+#message .arrow .inner {
+    width: 0;
+    height: 0;
+    border-left: 19px solid #ffffff;
+    border-bottom: 19px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 1px;
+  }
+#message .message-body {
+    width: 100%;
+    height: auto;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+    border: 1px dashed #000000;
+    padding: 6px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+#message .message-body p{
+    margin: 0;
+    font-size: 14px
+}
+#message .message-body i{
+    font-size: 25px;
+    color: #46ad0e;
+}
+.mid .comment .card{
+    border: none;
+}
+.slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+.prev-arrow{
+    left: -10px;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    background-color: white;
+}
+.next-arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: white;
+}

@@ -1,0 +1,135 @@
+h4{
+    font-family: OpenSans-B;
+}
+.slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+.prev-arrow{
+    left: -15px;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    background-color: white;
+}
+.next-arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: white;
+}
+.mid .introduce img{
+    border: 1px solid #eaeaea;
+    padding: 2px;
+}
+.mid .introduce .slider-nav{
+    margin: 10px 80px;
+}
+.mid .introduce .slider-nav .slide-img{
+    margin: 4px;
+}
+.mid .introduce .slider-nav .selected{
+    border: 1px solid #46ad0e;
+}
+.mid .introduce .title{
+    border-bottom: 1px dashed #bbbbbb;
+}
+.mid .introduce .info{
+    border-bottom: 1px dashed #bbbbbb;
+    padding: 15px 0;
+}
+.mid .introduce .info .title{
+    border-bottom: 7px solid white;
+}
+.mid .introduce .info .price{
+    color: #ff3f00;
+}
+.mid .introduce .info input{
+    max-width: 100px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    padding: 5px;
+}
+.mid .introduce .info .btn{
+    max-width: 140px;
+    color: white;
+    background-color: #46ad0e;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.mid .introduce .info .btn:hover{
+    background-color:#ff3f00;
+}
+.mid .introduce .slide-ctsp{
+    height: 100%;
+}
+.mid .introduce .des{
+    border-bottom: 1px dashed #bbbbbb;
+    padding: 25px 0;
+}
+.mid .introduce .des p{
+    margin: 5px 0;
+}
+.mid .content .card{
+    margin: 35px 0;
+    border: none;
+}
+.mid .content .card-header{
+    background-color: #46ad0e;
+    border-radius: 0;
+}
+.mid .content .card-header .nav-link{
+    border-radius: 0;
+    color: white;
+}
+.mid .content .card-header .active{
+    color: black;
+}
+.mid .content .card-body .card img{
+    border: 1px solid #bfbfbf;
+    padding: 5px;
+}
+.mid .content .card-body .card .card-body{
+    padding: 0;
+}
+.mid .content .card-body .card .card-body .card-title{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.mid .content .card-body .card .card-body .card-text{
+    text-align: left;
+    font-size: 15px;
+}
+.mid .other .slide{
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+.mid .other .slide .sp .card{
+    border-radius: 0;
+    padding-top: 4px;
+}
+.mid .other .slide .sp .name{
+    text-align: center;
+    margin-bottom:0px;
+    font-size: 14px;
+    color: black;
+}
+.mid .other .slide .sp .price{
+    margin-bottom: 0;
+    color:#46ad0e ;
+    text-align: center;
+    font-size: 14px;
+}

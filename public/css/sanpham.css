@@ -1,0 +1,27 @@
+.mid .main{
+    padding-bottom: 30px;
+}
+.mid .main .img-title a{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 14px;
+    color: black;
+}
+.mid .main .main-content a{
+    text-decoration: none;
+    color: black;
+}
+.mid .main .main-content .card{
+    border-radius: 0;
+    padding-top: 4px;
+}
+.mid .main .main-content .name{
+    text-align: center;
+    margin-bottom:0px;
+    font-size: 14px;
+} 
+.mid .main .main-content .price{
+    color:#46ad0e ;
+    text-align: center;
+    font-size: 14px;
+}
